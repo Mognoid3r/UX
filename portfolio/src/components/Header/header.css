@@ -1,0 +1,31 @@
+.header_container {
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+  }
+  header a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  header p {
+    /* position: absolute; */
+    /* top: 111px; */
+    color: rgb(242, 239, 232);
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+  }
+  header span {
+    display: block;
+  }
+  header span:first-child {
+    font-size: 0.5em;
+    font-weight: 400;
+  }
+  header span:last-child {
+    font-size: 1em;
+    font-weight: 800;
+  }

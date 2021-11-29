@@ -1,0 +1,154 @@
+.topSectionContainer {
+  position: absolute;
+    height: 100vh;
+    width: 100vw; 
+    margin-top: -6em;
+    /* margin-left: 30px; */
+    /* align-content: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* vertical-align: center; */
+    text-align: center;
+    z-index: 10;
+
+}
+
+.headerContent {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    max-width: 50%;
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 80px;
+}
+
+.slogan {
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 1em;
+}
+
+.topSectionContainer p{
+
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  /* max-width: 30%; */
+  text-align: center;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 100vw; */
+margin: 0;
+gap: 15px;
+}
+
+.buttonContainer button {
+    /* max-width: 30%; */
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 13px 8em;
+  margin-top: 3em;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 250ms ease-in-out;
+  border: 1px solid #F7E801;
+}
+
+.buttonContainer button:hover {
+    background-color: transparent;
+    border: 2px solid #F7E801;
+  } 
+
+  .headerContent span {
+    display: block;
+  }
+  .headerContent span:first-child {
+    font-size: .5em;
+    font-weight: 400;
+  }
+  .headerContent span:last-child {
+    font-size: 1em;
+    font-weight: 800;
+  }
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+   
+.topSectionContainer {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    z-index: 10;
+}
+
+.logo {
+  
+}
+
+.slogan {
+  
+}
+
+.topSectionContainer p{
+  
+}
+
+.topSectionContainer button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 8px 2em;
+    margin-top: 3em;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+  
+    
+  }
+  
+  .topSectionContainer button:hover {
+      background-color: transparent;
+      border: 2px solid #27b927;
+    } 
+    .buttonContainer {
+      display: flex;
+      flex-direction: column;
+    }
+
+}
